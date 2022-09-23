@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="/stylesheets/main.css">
+</head>
+
+<body>
+
+  <!-- navigation -->
+
+  <header>
+    <a href="Homepage" class="navbar-brand">Homepage</a>
+    <input type="checkbox" class="navbar-toggle" id="navbar-toggle">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="About" class="page-link">About</a></li>
+        <li class="nav-item"><a href="Portfolio" class=" page-link">Portfolio</a></li>
+        <li class="nav-item"><a href="Contact" class=" page-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
+
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+
+</body>
+
+</html>
